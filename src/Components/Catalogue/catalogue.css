@@ -1,0 +1,10 @@
+.catalogue {
+	margin: auto;
+	padding: 50px;
+	padding-top: 25px;
+	width: 75%;
+
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}

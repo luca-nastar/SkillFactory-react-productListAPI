@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+	font-family: "Open Sans", helvetica, arial, sans-serif;
+}
+
+.product {
+	width: 300px;
+	border: 2px solid #f2f2f2;
+	border-radius: 8px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.product,
+.product-image {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.product-image {
+	width: 100%;
+	overflow: hidden;
+	object-fit: fill;
+}
+
+.product-image img {
+	max-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	object-fit: cover;
+	object-position: 50% 50%;
+}
+.product-content {
+	width: 100%;
+	padding: 10px;
+	font-size: 14px;
+	color: #222222;
+}
+
+.product-content__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.product-title {
+	margin: 0;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000;
+}
+.product-price {
+	font-size: 15px;
+	font-weight: 600;
+	color: #48cfad;
+}
+.product-category {
+	margin: 0;
+	color: #b1b1b3;
+	font-size: 14px;
+}
